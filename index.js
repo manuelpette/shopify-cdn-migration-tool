@@ -61,6 +61,7 @@ const mainScript = function() {
 
 function moveToMaxPagination() {
     if(window.location.href.indexOf('?limit=250') !== -1) return window.alert('You are already at pagination limit of 250 files!');
+    if(window.location.href.indexOf('.myshopify.com/admin/settings/files') !== -1) return window.alert('Looks like you are not in the settings/files dashboard!');
 
     const url = window.location.href.split('?');
     let new_url = `${url[0]}?limit=250`;
