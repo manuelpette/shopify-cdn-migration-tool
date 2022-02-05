@@ -1,0 +1,20 @@
+
+{
+  "name": "Shopify Migration Tool",
+  "description": "A Chrome Extension that helps migrating Shopify images from CDN",
+  "version": "1.0",
+  "manifest_version": 3,
+  "permissions": ["downloads", "storage", "activeTab", "scripting", "history"],
+  "action": {
+    "default_popup": "index.html"
+  },
+  "background" : {
+    "service_worker" : "background.js"
+  },
+  "icons": {
+    "16": "/images/icon-32.png",
+    "32": "/images/icon-32.png",
+    "48": "/images/icon-64.png",
+    "128": "/images/icon-128.png"
+  }
+}
