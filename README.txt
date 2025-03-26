@@ -19,3 +19,6 @@ chrome://extensions
 7. Enjoy and make the most of your new chrome extension!
 
 ------------
+
+
+x
